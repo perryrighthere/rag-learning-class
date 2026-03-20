@@ -1,0 +1,8 @@
+services:
+  rag-demo:
+    build: .
+    environment:
+      PYTHONPATH: /app/src
+    command: >
+      python scripts/run_week1_demo.py
+      --question "${QUESTION:-RAG 的最小闭环包含哪些环节？}"
