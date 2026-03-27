@@ -1,0 +1,112 @@
+[
+  {
+    "source_id": "COP-001",
+    "title": "数据分级与处理标准",
+    "source_ref": "内部制度库 / 数据治理委员会",
+    "published_at": "2025-01-15",
+    "format": "md",
+    "authority_type": "policy",
+    "path": "sources/data-classification-standard.md",
+    "summary": "定义公开、内部、敏感和严格受限四级数据及对应处理要求。",
+    "reason_to_include": "它直接决定哪些问题可以用制度文本回答，也是后续元数据与权限设计的上游依据。"
+  },
+  {
+    "source_id": "COP-002",
+    "title": "数据访问权限审批流程",
+    "source_ref": "内部制度库 / 安全运营部",
+    "published_at": "2025-02-10",
+    "format": "md",
+    "authority_type": "procedure",
+    "path": "sources/access-control-procedure.md",
+    "summary": "说明访问审批角色、时效和季度复核动作。",
+    "reason_to_include": "它让系统能回答谁来批、批多久、何时回收等高频流程题。"
+  },
+  {
+    "source_id": "COP-003",
+    "title": "个人信息收集告知模板",
+    "source_ref": "模板中心 / 隐私办公室",
+    "published_at": "2024-11-01",
+    "format": "html",
+    "authority_type": "template",
+    "path": "sources/consent-notice-template.html",
+    "summary": "给出收集前必须告知的字段和不可省略的说明项。",
+    "reason_to_include": "它能界定哪些问题属于固定告知义务，避免把营销文案误当制度依据。"
+  },
+  {
+    "source_id": "COP-004",
+    "title": "跨境传输前置检查清单",
+    "source_ref": "跨境项目包 / 隐私合规专项",
+    "published_at": "2025-03-03",
+    "format": "txt",
+    "authority_type": "checklist",
+    "path": "sources/cross-border-transfer-checklist.txt",
+    "summary": "列出跨境数据流动前必须完成的数据映射、法务复核和供应商核验。",
+    "reason_to_include": "跨境问题边界很清楚，适合训练学生先问证据，再谈流程和责任。"
+  },
+  {
+    "source_id": "COP-005",
+    "title": "数据保留与删除标准",
+    "source_ref": "内部制度库 / 信息治理组",
+    "published_at": "2024-12-18",
+    "format": "md",
+    "authority_type": "policy",
+    "path": "sources/retention-deletion-standard.md",
+    "summary": "规定客服会话、交易记录和审计日志的保留时长与删除动作。",
+    "reason_to_include": "它让学生看到时限类问题最适合做证据式 RAG，也是日后测试集的重要来源。"
+  },
+  {
+    "source_id": "COP-006",
+    "title": "第三方安全审查指引",
+    "source_ref": "供应商风险管理站点 / 安全与采购联合发布",
+    "published_at": "2025-01-28",
+    "format": "html",
+    "authority_type": "guideline",
+    "path": "sources/third-party-security-review.html",
+    "summary": "说明供应商处理个人信息时必须完成的问卷、合同和整改闭环。",
+    "reason_to_include": "第三方管理是企业场景里高频而且边界清晰的题型，适合做语料覆盖。"
+  },
+  {
+    "source_id": "COP-007",
+    "title": "安全事件升级与通报手册",
+    "source_ref": "应急响应手册 / 安全响应团队",
+    "published_at": "2025-02-21",
+    "format": "txt",
+    "authority_type": "playbook",
+    "path": "sources/incident-escalation-playbook.txt",
+    "summary": "给出 P1/P2 事件的升级时限、通知对象和现场保全动作。",
+    "reason_to_include": "它天然适合回答多久上报、通知谁、先做什么这类流程型问题。"
+  },
+  {
+    "source_id": "COP-008",
+    "title": "审计日志管理政策",
+    "source_ref": "内部制度库 / 平台工程部",
+    "published_at": "2024-10-12",
+    "format": "md",
+    "authority_type": "policy",
+    "path": "sources/audit-log-policy.md",
+    "summary": "规定关键系统日志保留范围、最短保存时间和访问审计要求。",
+    "reason_to_include": "日志类文本结构规整，适合训练学生分辨制度问题和运维经验问题。"
+  },
+  {
+    "source_id": "COP-009",
+    "title": "隐私影响评估作业流程",
+    "source_ref": "评估中心 / 隐私办公室",
+    "published_at": "2025-03-12",
+    "format": "html",
+    "authority_type": "sop",
+    "path": "sources/pia-sop.html",
+    "summary": "说明何时触发 PIA、谁来评估以及评估记录如何归档。",
+    "reason_to_include": "它让学生看到一个问题是否入域，往往取决于有没有明确触发条件和责任人。"
+  },
+  {
+    "source_id": "COP-010",
+    "title": "数据主体访问请求处理流程",
+    "source_ref": "内部制度库 / 客服合规联席组",
+    "published_at": "2025-02-05",
+    "format": "md",
+    "authority_type": "procedure",
+    "path": "sources/dsar-response-process.md",
+    "summary": "规定接收、核验、分派和回复数据主体请求的时限。",
+    "reason_to_include": "数据主体请求是典型的证据清晰场景，容易转成后续评测题。"
+  }
+]

@@ -1,0 +1,112 @@
+[
+  {
+    "source_id": "CIR-001",
+    "title": "Computer Security Incident Handling Guide",
+    "source_ref": "NIST Special Publication 800-61 Rev. 2",
+    "published_at": "2012-08-06",
+    "format": "html",
+    "authority_type": "publication",
+    "path": "sources/incident-handling-guide.html",
+    "summary": "给出准备、检测分析、遏制、根除和恢复的事件响应框架。",
+    "reason_to_include": "它是整个 scope 的总纲，能帮助学生把事件响应问题绑定到稳定流程。"
+  },
+  {
+    "source_id": "CIR-002",
+    "title": "Guide to Computer Security Log Management",
+    "source_ref": "NIST Special Publication 800-92",
+    "published_at": "2006-09-13",
+    "format": "html",
+    "authority_type": "publication",
+    "path": "sources/log-management-guide.html",
+    "summary": "解释日志采集、存储、分析和保护在安全运营中的作用。",
+    "reason_to_include": "日志是后续检索和证据追踪的关键对象，适合训练学生界定可回答的运维问题。"
+  },
+  {
+    "source_id": "CIR-003",
+    "title": "Information Security Continuous Monitoring (ISCM) for Federal Information Systems and Organizations",
+    "source_ref": "NIST Special Publication 800-137",
+    "published_at": "2011-09-30",
+    "format": "html",
+    "authority_type": "publication",
+    "path": "sources/iscm-guide.html",
+    "summary": "说明如何建立持续监测计划、定义指标并持续收集安全状态信息。",
+    "reason_to_include": "它让这个 scope 不只停在响应，还能覆盖监测前置治理与程序化评估。"
+  },
+  {
+    "source_id": "CIR-004",
+    "title": "Assessing Information Security Continuous Monitoring (ISCM) Programs: Developing an ISCM Program Assessment",
+    "source_ref": "NIST Special Publication 800-137A",
+    "published_at": "2020-05-21",
+    "format": "html",
+    "authority_type": "publication",
+    "path": "sources/iscm-assessment.html",
+    "summary": "提供评估 ISCM 计划成熟度和完整性的框架与程序。",
+    "reason_to_include": "它让学生能够构造更复杂的“如何评估监测计划是否到位”类问题。"
+  },
+  {
+    "source_id": "CIR-005",
+    "title": "Guide to Integrating Forensic Techniques into Incident Response",
+    "source_ref": "NIST Special Publication 800-86",
+    "published_at": "2006-09-01",
+    "format": "html",
+    "authority_type": "publication",
+    "path": "sources/forensic-techniques.html",
+    "summary": "讨论在事件响应中如何整合数字取证活动与证据保全。",
+    "reason_to_include": "这条语料能显著提高 scope 的复杂度，支持证据链和取证流程问题。"
+  },
+  {
+    "source_id": "CIR-006",
+    "title": "Guide for Cybersecurity Event Recovery",
+    "source_ref": "NIST Special Publication 800-184",
+    "published_at": "2016-12-22",
+    "format": "txt",
+    "authority_type": "guide",
+    "path": "sources/event-recovery.txt",
+    "summary": "概述事件恢复计划、恢复队伍协调和恢复后的改进动作。",
+    "reason_to_include": "它补足很多 incident-response 语料里缺少的恢复治理视角。"
+  },
+  {
+    "source_id": "CIR-007",
+    "title": "Guide to Cyber Threat Information Sharing",
+    "source_ref": "NIST Special Publication 800-150",
+    "published_at": "2016-10-04",
+    "format": "txt",
+    "authority_type": "guide",
+    "path": "sources/threat-info-sharing.txt",
+    "summary": "说明威胁情报共享的治理目标、共享对象和运营考虑。",
+    "reason_to_include": "这能帮助学生区分“共享机制问题”与“攻击归因猜测”之间的边界。"
+  },
+  {
+    "source_id": "CIR-008",
+    "title": "Guide for Cybersecurity Incident Recovery",
+    "source_ref": "NIST ITL Bulletin",
+    "published_at": "2017-02-21",
+    "format": "txt",
+    "authority_type": "bulletin",
+    "path": "sources/incident-recovery-bulletin.txt",
+    "summary": "用较短篇幅总结事件恢复的关键动作、协调与经验反馈。",
+    "reason_to_include": "作为 bulletin，它能补足长篇 SP 之外更适合快速问答的恢复语料。"
+  },
+  {
+    "source_id": "CIR-009",
+    "title": "Cyber Threat Intelligence and Information Sharing",
+    "source_ref": "NIST Cybersecurity White Paper",
+    "published_at": "2017-05-08",
+    "format": "txt",
+    "authority_type": "bulletin",
+    "path": "sources/cyber-threat-intel-sharing.txt",
+    "summary": "解释网络威胁情报和共享机制在运营中的作用与价值边界。",
+    "reason_to_include": "它适合支持更抽象但仍然证据清晰的治理类问题。"
+  },
+  {
+    "source_id": "CIR-010",
+    "title": "Ransomware Risk Management: A Cybersecurity Framework Profile",
+    "source_ref": "NIST Cybersecurity White Paper",
+    "published_at": "2022-02-23",
+    "format": "txt",
+    "authority_type": "framework-profile",
+    "path": "sources/ransomware-profile.txt",
+    "summary": "以勒索软件场景映射 CSF 活动，帮助组织识别预防、检测、响应和恢复动作。",
+    "reason_to_include": "它为高复杂度 scope 增加了一个具体威胁场景，便于构造更真实的问题集。"
+  }
+]

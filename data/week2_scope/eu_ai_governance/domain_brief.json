@@ -1,0 +1,73 @@
+{
+  "domain_name": "欧盟 AI Act 企业治理与合规执行",
+  "goal": "构建一个围绕 AI Act 义务、禁用实践、GPAI 责任和高风险系统治理进行证据式回答的高级 Week 2 scope。",
+  "why_this_domain": "该领域同时包含法规原文、官方 FAQ、实施时间线和治理义务，证据清晰但边界更复杂，适合作为比隐私内控更高难度的 Week 2 样例。",
+  "include_topics": [
+    "AI literacy",
+    "被禁止的 AI 实践",
+    "高风险 AI 系统提供者义务",
+    "质量管理体系",
+    "基本权利影响评估",
+    "透明度义务",
+    "GPAI 文档与版权义务",
+    "系统性风险模型义务",
+    "实施时间线",
+    "标准化与 common specifications"
+  ],
+  "exclude_topics": [
+    "模型效果优劣比较",
+    "产品路线图建议",
+    "融资与估值判断",
+    "是否一定会被罚的预测",
+    "开放式 AI 伦理辩论",
+    "最佳商业模式选择"
+  ],
+  "include_keywords": [
+    "ai act",
+    "ai literacy",
+    "高风险",
+    "提供者",
+    "部署者",
+    "透明度",
+    "禁止",
+    "fria",
+    "基本权利影响评估",
+    "质量管理",
+    "gpai",
+    "系统性风险",
+    "code of practice",
+    "common specifications"
+  ],
+  "exclude_keywords": [
+    "最好模型",
+    "商业模式",
+    "估值",
+    "融资",
+    "市场份额",
+    "路线图",
+    "会不会被罚",
+    "罚款",
+    "未来三年",
+    "值不值得",
+    "护城河",
+    "怎么赚钱"
+  ],
+  "in_scope_examples": [
+    "高风险 AI 系统提供者需要建立什么样的质量管理体系？",
+    "Article 27 下什么时候需要做基本权利影响评估？",
+    "GPAI 模型提供者从什么时候开始承担 Article 55 的系统性风险义务？"
+  ],
+  "out_of_scope_examples": [
+    "我们现在做 AI 招聘产品最赚钱的商业模式是什么？",
+    "这家 AI 公司未来三年一定会不会因为 AI Act 被重罚？",
+    "哪个开源大模型最值得现在押注？"
+  ],
+  "minimum_source_count": 10,
+  "maximum_source_count": 16,
+  "preferred_formats": [
+    "html",
+    "txt",
+    "md",
+    "pdf"
+  ]
+}

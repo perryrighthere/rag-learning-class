@@ -1,0 +1,112 @@
+[
+  {
+    "source_id": "AIG-001",
+    "title": "Navigating the AI Act",
+    "source_ref": "European Commission / Shaping Europe’s digital future",
+    "published_at": "2026-01-28",
+    "format": "html",
+    "authority_type": "faq",
+    "path": "sources/navigating-ai-act.html",
+    "summary": "总览 AI Act 的目标、治理结构、高风险系统、GPAI 和实施时间线。",
+    "reason_to_include": "它提供整个 scope 的顶层边界和适用时间线，是后续判断问题是否在域内的入口文档。"
+  },
+  {
+    "source_id": "AIG-002",
+    "title": "AI Literacy - Questions & Answers",
+    "source_ref": "European Commission / Shaping Europe’s digital future",
+    "published_at": "2025-11-19",
+    "format": "html",
+    "authority_type": "faq",
+    "path": "sources/ai-literacy-qa.html",
+    "summary": "解释 Article 4 的 AI literacy 义务、适用对象、执行和常见疑问。",
+    "reason_to_include": "AI literacy 是最早适用的义务之一，能把“培训要求”和“治理执行”边界讲清楚。"
+  },
+  {
+    "source_id": "AIG-003",
+    "title": "General-purpose AI obligations under the AI Act",
+    "source_ref": "European Commission / Shaping Europe’s digital future",
+    "published_at": "2025-08-01",
+    "format": "html",
+    "authority_type": "factpage",
+    "path": "sources/gpai-obligations.html",
+    "summary": "概述 GPAI 模型提供者和系统性风险模型提供者的核心义务。",
+    "reason_to_include": "它把 GPAI 责任显式拆开，便于学生区分通用模型义务和高风险系统义务。"
+  },
+  {
+    "source_id": "AIG-004",
+    "title": "General-Purpose AI Models in the AI Act – Questions & Answers",
+    "source_ref": "European Commission / Shaping Europe’s digital future",
+    "published_at": "2025-09-09",
+    "format": "html",
+    "authority_type": "faq",
+    "path": "sources/gpai-models-qa.html",
+    "summary": "解释 GPAI 文档、版权、训练内容摘要和系统性风险模型的补充义务。",
+    "reason_to_include": "它能支持更细粒度的问题，例如 Article 53 与 Article 55 的区别和适用时间。"
+  },
+  {
+    "source_id": "AIG-005",
+    "title": "Understanding the standardisation of the AI Act",
+    "source_ref": "European Commission / Shaping Europe’s digital future",
+    "published_at": "2026-03-10",
+    "format": "html",
+    "authority_type": "faq",
+    "path": "sources/ai-standardisation.html",
+    "summary": "解释 harmonised standards、standardisation request 和 presumption of conformity 的关系。",
+    "reason_to_include": "它把“合规靠什么证明”讲得更清楚，是高复杂度 scope 中的重要治理支撑文本。"
+  },
+  {
+    "source_id": "AIG-006",
+    "title": "Article 4: AI literacy",
+    "source_ref": "AI Act Service Desk / European Commission DG CONNECT",
+    "published_at": "2024-06-13",
+    "format": "txt",
+    "authority_type": "regulation-summary",
+    "path": "sources/article-4-ai-literacy.txt",
+    "summary": "提供 AI literacy 条文摘要，明确提供者和部署者应确保相关人员具备足够知识。",
+    "reason_to_include": "FAQ 之外仍然需要条文级依据，避免学生只依赖解释性材料而忽略法规文本。"
+  },
+  {
+    "source_id": "AIG-007",
+    "title": "Article 5: Prohibited AI practices",
+    "source_ref": "AI Act Service Desk / European Commission DG CONNECT",
+    "published_at": "2024-06-13",
+    "format": "txt",
+    "authority_type": "regulation-summary",
+    "path": "sources/article-5-prohibited-practices.txt",
+    "summary": "概述被禁止的 AI 实践及其适用范围。",
+    "reason_to_include": "禁用实践是最清晰的出界/拒答依据之一，能帮助学生练习边界裁剪。"
+  },
+  {
+    "source_id": "AIG-008",
+    "title": "Article 17: Quality management system",
+    "source_ref": "AI Act Service Desk / European Commission DG CONNECT",
+    "published_at": "2024-06-13",
+    "format": "txt",
+    "authority_type": "regulation-summary",
+    "path": "sources/article-17-quality-management.txt",
+    "summary": "概述高风险 AI 系统提供者的质量管理体系要求。",
+    "reason_to_include": "这类条文支持更复杂的流程题和责任题，是高级 Week 2 scope 的核心证据。"
+  },
+  {
+    "source_id": "AIG-009",
+    "title": "Article 27: Fundamental rights impact assessment for high-risk AI systems",
+    "source_ref": "AI Act Service Desk / European Commission DG CONNECT",
+    "published_at": "2024-06-13",
+    "format": "txt",
+    "authority_type": "regulation-summary",
+    "path": "sources/article-27-fria.txt",
+    "summary": "概述部署高风险 AI 系统时的基本权利影响评估要求。",
+    "reason_to_include": "FRIA 是学生最容易混淆的治理动作之一，这条语料能帮助划清部署者职责。"
+  },
+  {
+    "source_id": "AIG-010",
+    "title": "Article 55: Obligations of providers of general-purpose AI models with systemic risk",
+    "source_ref": "AI Act Service Desk / European Commission DG CONNECT",
+    "published_at": "2024-06-13",
+    "format": "txt",
+    "authority_type": "regulation-summary",
+    "path": "sources/article-55-systemic-risk.txt",
+    "summary": "概述系统性风险 GPAI 模型提供者的评估、报告和安全保护义务。",
+    "reason_to_include": "它提升了这个 scope 的复杂度，让学生必须区分一般 GPAI 义务和系统性风险义务。"
+  }
+]

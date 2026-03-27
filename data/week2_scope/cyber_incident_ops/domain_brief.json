@@ -1,0 +1,77 @@
+{
+  "domain_name": "企业网络安全事件响应与日志治理",
+  "goal": "构建一个围绕事件响应、日志、取证、持续监测、恢复和威胁情报共享进行证据式回答的复杂 Week 2 scope。",
+  "why_this_domain": "该领域文档体系稳定、术语明确，但比一般合规制度更技术化，适合给学生提供更复杂的 Week 2 高阶样例。",
+  "include_topics": [
+    "事件响应生命周期",
+    "事件准备与分析",
+    "日志管理",
+    "持续监测",
+    "取证与证据保全",
+    "事件恢复",
+    "威胁情报共享",
+    "勒索软件风险管理",
+    "监测程序评估",
+    "恢复治理职责"
+  ],
+  "exclude_topics": [
+    "攻击归因判断",
+    "漏洞利用代码编写",
+    "EDR 或 SIEM 采购建议",
+    "红队/进攻策略设计",
+    "产品选型对比",
+    "零日漏洞交易与利用"
+  ],
+  "include_keywords": [
+    "incident",
+    "security incident",
+    "日志",
+    "log",
+    "logging",
+    "取证",
+    "forensic",
+    "恢复",
+    "recovery",
+    "iscm",
+    "持续监测",
+    "threat intelligence",
+    "ransomware",
+    "evidence",
+    "containment"
+  ],
+  "exclude_keywords": [
+    "最好 edr",
+    "edr",
+    "哪家厂商",
+    "哪一家",
+    "价格",
+    "攻击者是谁",
+    "攻击者",
+    "归因",
+    "哪个国家",
+    "怎么利用",
+    "zero-day",
+    "绕过",
+    "红队方案",
+    "进攻策略",
+    "买什么"
+  ],
+  "in_scope_examples": [
+    "日志管理指南建议保留哪些类型的安全日志以支持事件分析？",
+    "NIST 事件恢复指南把恢复工作分成哪些阶段？",
+    "在取证并入事件响应流程时，NIST 强调要保留哪类证据链信息？"
+  ],
+  "out_of_scope_examples": [
+    "我们现在最应该买哪一家的 EDR 产品？",
+    "这个攻击事件大概率是哪个国家的组织干的？",
+    "怎样写一个更隐蔽的漏洞利用脚本？"
+  ],
+  "minimum_source_count": 10,
+  "maximum_source_count": 15,
+  "preferred_formats": [
+    "html",
+    "txt",
+    "md",
+    "pdf"
+  ]
+}

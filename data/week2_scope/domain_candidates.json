@@ -1,0 +1,56 @@
+[
+  {
+    "name": "企业数据合规与隐私内控",
+    "description": "围绕制度、流程、职责和时限回答企业数据治理问题。",
+    "evidence_clarity": 5,
+    "terminology_stability": 5,
+    "citation_readiness": 5,
+    "collection_friction": 2,
+    "open_endedness": 1
+  },
+  {
+    "name": "上市公司财务披露问答",
+    "description": "基于公告、年报和交易所规则回答披露义务和信息口径问题。",
+    "evidence_clarity": 5,
+    "terminology_stability": 4,
+    "citation_readiness": 5,
+    "collection_friction": 3,
+    "open_endedness": 2
+  },
+  {
+    "name": "欧盟 AI Act 企业治理与合规执行",
+    "description": "基于法规原文、AI Office FAQ 和治理条款回答提供者、部署者和 GPAI 义务问题。",
+    "evidence_clarity": 5,
+    "terminology_stability": 4,
+    "citation_readiness": 5,
+    "collection_friction": 4,
+    "open_endedness": 2
+  },
+  {
+    "name": "企业网络安全事件响应与日志治理",
+    "description": "基于 NIST 事件响应、日志、取证和恢复文档回答安全运营治理问题。",
+    "evidence_clarity": 4,
+    "terminology_stability": 4,
+    "citation_readiness": 4,
+    "collection_friction": 3,
+    "open_endedness": 2
+  },
+  {
+    "name": "产品售后手册问答",
+    "description": "基于产品手册、保修条款和排障流程回答售后支持问题。",
+    "evidence_clarity": 4,
+    "terminology_stability": 4,
+    "citation_readiness": 4,
+    "collection_friction": 2,
+    "open_endedness": 2
+  },
+  {
+    "name": "开放式职业规划建议",
+    "description": "回答怎么求职、怎么发展、什么方向更值得做等经验型问题。",
+    "evidence_clarity": 1,
+    "terminology_stability": 2,
+    "citation_readiness": 1,
+    "collection_friction": 1,
+    "open_endedness": 5
+  }
+]
