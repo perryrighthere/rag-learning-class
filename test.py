@@ -10,7 +10,7 @@ from pydantic import BaseModel, Field
 # 定义模型
 model = ChatOpenAI(
     model = "openai/gpt-5-mini",
-    api_key="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",
+    api_key="sk-or-v1-",
     base_url="https://openrouter.ai/api/v1"
 )
 
