@@ -1,0 +1,29 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 244 >>
+stream
+BT
+/F1 14 Tf
+72 730 Td
+(数据保留与删除时限表) Tj
+0 -24 Td
+(访问审批日志至少保留 180 天，便于后续事件追踪和复盘。) Tj
+0 -24 Td
+(临时导出文件应在业务完成后 30 天内删除，除非存在监管调查要求。) Tj
+0 -24 Td
+(若进入正式调查，需把删除延期决定和责任人一起写入审计记录。) Tj
+ET
+endstream
+endobj
+trailer
+<< /Root 1 0 R >>
+%%EOF

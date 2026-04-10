@@ -1,0 +1,27 @@
+{
+  "domain_name": "Failure Lab",
+  "goal": "用一个最小坏样例演示失败日志长什么样。",
+  "notes": "This bundle is intentionally broken for classroom debugging.",
+  "sources": [
+    {
+      "source_id": "ok_html",
+      "title": "正常网页样例",
+      "source_ref": "https://example.local/ok-html",
+      "published_at": "2025-03-01",
+      "format": "html",
+      "authority_type": "test",
+      "path": "raw_sources/ok-sample.html",
+      "parser_hint": "web"
+    },
+    {
+      "source_id": "missing_html",
+      "title": "缺失网页样例",
+      "source_ref": "https://example.local/missing-html",
+      "published_at": "2025-03-02",
+      "format": "html",
+      "authority_type": "test",
+      "path": "raw_sources/missing-sample.html",
+      "parser_hint": "web"
+    }
+  ]
+}

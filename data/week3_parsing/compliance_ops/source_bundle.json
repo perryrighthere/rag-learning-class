@@ -1,0 +1,68 @@
+{
+  "domain_name": "企业数据合规与隐私内控",
+  "goal": "把网页、制度稿和 PDF 统一整理成可直接映射到 LangChain Document 的标准记录。",
+  "notes": "Week 3 聚焦解析工程，不做检索与生成。",
+  "sources": [
+    {
+      "source_id": "web_privacy_notice",
+      "title": "员工隐私告知更新说明",
+      "source_ref": "https://intranet.example.local/privacy-notice-refresh",
+      "published_at": "2025-01-12",
+      "format": "html",
+      "authority_type": "policy",
+      "path": "raw_sources/privacy-notice-refresh.html",
+      "parser_hint": "web"
+    },
+    {
+      "source_id": "web_access_review",
+      "title": "临时访问复核流程",
+      "source_ref": "https://intranet.example.local/access-review-playbook",
+      "published_at": "2025-02-03",
+      "format": "html",
+      "authority_type": "process",
+      "path": "raw_sources/access-review-playbook.html",
+      "parser_hint": "web"
+    },
+    {
+      "source_id": "web_vendor_faq",
+      "title": "第三方安全评估 FAQ",
+      "source_ref": "https://intranet.example.local/vendor-assessment-faq",
+      "published_at": "2024-11-08",
+      "format": "html",
+      "authority_type": "faq",
+      "path": "raw_sources/vendor-assessment-faq.html",
+      "parser_hint": "web"
+    },
+    {
+      "source_id": "md_dsar_handbook",
+      "title": "DSAR 响应手册",
+      "source_ref": "internal://privacy/dsar-handbook",
+      "published_at": "2025-02-20",
+      "format": "md",
+      "authority_type": "playbook",
+      "path": "raw_sources/dsar-response-handbook.md",
+      "parser_hint": "text"
+    },
+    {
+      "source_id": "txt_transfer_checklist",
+      "title": "跨境传输例外检查清单",
+      "source_ref": "internal://privacy/transfer-exception-checklist",
+      "published_at": "2024-12-18",
+      "format": "txt",
+      "authority_type": "checklist",
+      "path": "raw_sources/transfer-exception-checklist.txt",
+      "parser_hint": "text"
+    },
+    {
+      "source_id": "pdf_retention_schedule",
+      "title": "数据保留与删除时限表",
+      "source_ref": "internal://privacy/retention-schedule",
+      "published_at": "2025-01-30",
+      "format": "pdf",
+      "authority_type": "schedule",
+      "path": "raw_sources/retention-schedule.pdf",
+      "parser_hint": "pdf",
+      "cached_parse_path": "cached_parse/retention-schedule.mineru.json"
+    }
+  ]
+}

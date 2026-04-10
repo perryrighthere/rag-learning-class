@@ -4,10 +4,17 @@
 
 - `src/ntu_rag_week1/`: Week 1 minimal RAG pipeline
 - `src/ntu_rag_week2/`: Week 2 domain scoping, corpus audit, boundary demo, and LangChain intro
+- `src/ntu_rag_week3/`: Week 3 standalone PDF parser service
+- `src/ntu_rag_week4/`: Week 4 chunking comparison and LangChain TextSplitter baseline
 - `data/week1_corpus/`: small local corpus used by the demo
 - `data/week2_scope/`: Week 2 domain candidates, manifest, and local sample sources
+- `data/week3_parsing/`: sample PDFs for Week 3 manual checks
+- `data/week4_chunking/`: Week 4 exported chunk comparison artifacts
 - `scripts/run_week1_demo.py`: CLI entrypoint
 - `scripts/run_week2_demo.py`: Week 2 CLI entrypoint
+- `scripts/run_week3_demo.py`: Week 3 CLI entrypoint
+- `scripts/run_week4_demo.py`: Week 4 CLI entrypoint
+- `scripts/run_week4_live_demo.py`: Week 4 live LLM-backed RAG entrypoint
 - `tests/`: `unittest` verification
 - `docs/teaching-scripts/`: teacher-only teaching notes
 - `docs/homework/`: homework only
@@ -15,20 +22,30 @@
 ## Requirements
 
 - Python 3.11+
+- `uv` or another virtualenv workflow
 - Docker Desktop or Docker Engine (optional)
 - `langchain-core` for the Week 2 LangChain intro
+- `pypdf` for the Week 3 local PDF fallback path
+- `langchain-text-splitters` for the Week 4 LangChain chunking baseline
+- a provider API key for the Week 4 live LLM path, such as `SILICONFLOW_API_KEY` or `OPENROUTER_API_KEY`
+- Optional: a deployed MinerU API service for the Week 3 primary path
 
 ## Setup
 
 ```bash
-python -m venv .venv
+uv venv .venv
 source .venv/bin/activate
-.venv/bin/pip install langchain-core
+uv pip install --python .venv/bin/python -r requirements.txt
 ```
 
-Week 1 uses only the Python standard library. Week 2 additionally uses `langchain-core`
-to demonstrate simple runnable composition while keeping the actual domain, audit, and
-boundary logic in local Python modules.
+Week 1 uses only the Python standard library. Week 2 adds `langchain-core` to
+demonstrate simple runnable composition. Week 3 is intentionally small: it only ships a
+standalone `pdf_parser` service. If `MinerU API` is available, the service returns raw
+MinerU JSON. If not, it falls back to `pypdf` or `pymupdf`. The cleanup/extraction step is
+left for students. Week 4 consumes the Week 3 parsed JSONL export and compares three
+chunking routes: fixed window, structure aware, and a `LangChain` recursive text splitter
+baseline. Week 4 also adds a practical bridge path: simple chunk retrieval plus a real
+OpenAI-compatible provider call through SiliconFlow, OpenRouter, or a custom endpoint.
 
 ## Run Locally
 
@@ -107,6 +124,56 @@ Save JSON to a file:
 ```bash
 PYTHONPATH=src .venv/bin/python scripts/run_week2_demo.py --scope cyber_incident_ops --json \
   > /tmp/week2-cyber-incident-report.json
+```
+
+Week 3 with MinerU API:
+
+```bash
+PYTHONPATH=src .venv/bin/python scripts/run_week3_demo.py \
+  --pdf /path/to/file.pdf \
+  --mineru-api-url http://127.0.0.1:18000 \
+  --json
+```
+
+Week 3 with local fallback:
+
+```bash
+PYTHONPATH=src .venv/bin/python scripts/run_week3_demo.py \
+  --pdf /path/to/file.pdf \
+  --parser pypdf \
+  --json
+```
+
+Week 4 chunking comparison:
+
+```bash
+PYTHONPATH=src .venv/bin/python scripts/run_week4_demo.py
+```
+
+Week 4 export artifacts:
+
+```bash
+PYTHONPATH=src .venv/bin/python scripts/run_week4_demo.py \
+  --export-dir data/week4_chunking/compliance_ops \
+  --json
+```
+
+Week 4 live RAG with SiliconFlow:
+
+```bash
+SILICONFLOW_API_KEY=your_key PYTHONPATH=src .venv/bin/python scripts/run_week4_live_demo.py \
+  --provider siliconflow \
+  --model Qwen/Qwen3-32B \
+  --question "临时访问权限开通后多久要完成第一次复核？"
+```
+
+Week 4 live RAG with OpenRouter:
+
+```bash
+OPENROUTER_API_KEY=your_key PYTHONPATH=src .venv/bin/python scripts/run_week4_live_demo.py \
+  --provider openrouter \
+  --model openai/gpt-4o-mini \
+  --question "DSAR 工单进入队列后第一步要做什么？"
 ```
 
 ## Run with Docker
